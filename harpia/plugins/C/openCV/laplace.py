@@ -50,7 +50,7 @@ class Laplace(OpenCVPlugin):
             '(size$id$, IPL_DEPTH_32F,block$id$_img_i0->nChannels);\n' + \
             'cvLaplace(block$id$_img_i0, block$id$_img_o0, ' + \
             'block$id$_int_i1);}\n'
-    
+
     # ----------------------------------------------------------------------
     def generate_vars(self):
         self.masksize = int(self.masksize)
