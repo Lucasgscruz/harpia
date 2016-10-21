@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the xor plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class Xor(OpenCVPlugin):
+    """
+    Xor plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

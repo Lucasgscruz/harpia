@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the capture plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
@@ -8,6 +11,9 @@ from glob import glob
 
 
 class Capture(OpenCVPlugin):
+    """
+    Capture plugin class.
+    """
 
     # ------------------------------------------------------------------------
     def __init__(self):

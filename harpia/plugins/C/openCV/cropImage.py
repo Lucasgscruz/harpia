@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the cropImage plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class CropImage(OpenCVPlugin):
+    """
+    CropImage plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

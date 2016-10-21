@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the exp plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class Exp(OpenCVPlugin):
+    """
+    Module containing the Exp plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

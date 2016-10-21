@@ -1,16 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module that contains the model class for OpenCV plugins.
+"""
 from harpia.model.plugin import Plugin
 
 
 class OpenCVPlugin(Plugin):
-
+    """
+    Class model for OpenCv plugins.
+    """
     # -------------------------------------------------------------------------
     def __init__(self):
+        """
+        Method that initializes the attributes that describe the present
+         plugins in the parent class, plugin.py.
+        """
         Plugin.__init__(self)
 
     # ----------------------------------------------------------------------
     def generate_vars(self):
+        """
+        Method that initializes the variables of the OpenCV plugin code.
+        """
         value = ""
         for x in self.get_description()["InTypes"]:
             if self.get_description()["InTypes"][x] == "HRP_IMAGE":

@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the save plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class Save(OpenCVPlugin):
+    """
+    Save plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

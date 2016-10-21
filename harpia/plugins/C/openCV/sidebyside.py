@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the sideBySide plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class SideBySide(OpenCVPlugin):
+    """
+    SideBySide plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

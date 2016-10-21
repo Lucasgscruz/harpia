@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the stereoCorr plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class StereoCorr(OpenCVPlugin):
+    """
+    StereoCorr plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

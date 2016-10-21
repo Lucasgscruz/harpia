@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the newPoint plugin class.
+"""
 
 from harpia.GUI.fieldtypes import *
 from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class NewPoint(OpenCVPlugin):
+    """
+    NewPoint plugin class.
+    """
 
     # -------------------------------------------------------------------------
     def __init__(self):

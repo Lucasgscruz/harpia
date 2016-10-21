@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+Module containing the liveMode plugin class.
+"""
 
 import os
 from glob import glob
@@ -8,6 +11,9 @@ from harpia.plugins.C.openCV.opencvplugin import OpenCVPlugin
 
 
 class LiveMode(OpenCVPlugin):
+    """
+    LiveMode plugin class.
+    """
 
     # --------------------------------------------------------------------------
     def __init__(self):
