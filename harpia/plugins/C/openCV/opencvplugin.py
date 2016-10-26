@@ -13,8 +13,8 @@ class OpenCVPlugin(Plugin):
     # -------------------------------------------------------------------------
     def __init__(self):
         """
-        Method that initializes the attributes that describe the present
-         plugins in the parent class, plugin.py.
+        Method that initializes the variables OpenCV plugin code,
+        which has only standard variables.
         """
         Plugin.__init__(self)
 
